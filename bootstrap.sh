@@ -96,4 +96,6 @@ if [[ "${MCSR_BOOTSTRAP_DRY_RUN:-0}" == 1 ]]; then
     exit 0
 fi
 
+rm -rf -- "$workdir"
+trap - EXIT
 exec "$CHECKOUT/$entry"
