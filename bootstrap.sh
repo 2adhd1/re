@@ -2,7 +2,7 @@
 set -Eeuo pipefail
 
 readonly MCSR_SETUP_REPO="${MCSR_SETUP_REPO:-https://github.com/diamondgather1n/mcsr-setup.git}"
-readonly MCSR_SETUP_REF="${MCSR_SETUP_REF:-c43830699976b8ce3f5aead8a5a6b47220f8f6a1}"
+readonly MCSR_SETUP_REF="${MCSR_SETUP_REF:-b014de0b21a60f75428eb420be9294e494071251}"
 readonly SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd -P)"
 readonly PROFILE="${1:-}"
 
